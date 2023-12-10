@@ -146,6 +146,24 @@ export const Data = [
       {
         image: [
           {
+            photo: "Gallery/TEAM/IMG-20231210-WA0007.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0011.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0013.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0015.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0016.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0018.jpg",
+          },
+          {
             photo: "Gallery/PROM22/IMG_20220925_101238.jpg",
           },
           {
@@ -246,6 +264,99 @@ export const Data = [
       },
     ],
   },
+
+  {
+    id: 5,
+    Photo: [
+      {
+        image: [
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0008.jpg",
+          },
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0009.jpg",
+          },
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0010.jpg",
+          },
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0014.jpg",
+          },
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0002.jpg",
+          },
+          
+          
+        ],
+        images: [
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0004.jpg",
+          },
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0003.jpg",
+          },
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0012.jpg",
+          },
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0017.jpg",
+          },
+          {
+            photo: "Gallery/2023_24/IMG-20231210-WA0005.jpg",
+          },
+          
+        ],
+        
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    Photo: [
+      {
+        image: [
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0007.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0011.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0013.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0015.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0016.jpg",
+          },
+          {
+            photo: "Gallery/TEAM/IMG-20231210-WA0018.jpg",
+          },
+          
+        ],
+        images: [
+          
+        ],
+        
+      },
+    ],
+  },
+  {
+    id: 7,
+    Photo: [
+      {
+        image: [
+
+        ],
+        images: [
+          
+        ],
+        
+      },
+    ],
+  }
 
 ];
 
