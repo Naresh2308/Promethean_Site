@@ -348,6 +348,9 @@ export const Data = [
     Photo: [
       {
         image: [
+          {
+            photo: "Gallery/SUSTAINX23_24/Coming_soon.png",
+          },
 
         ],
         images: [
