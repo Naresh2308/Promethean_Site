@@ -136,7 +136,7 @@ const Gallery = () => {
             className={gallery === 6 ? "active" : "null"}
             onClick={() => setGallery(6)}
           >
-            Promethean 2023-24
+            SustainX 2023-24
           </Tabs>
         </Tab>
   </HeroDiv>
