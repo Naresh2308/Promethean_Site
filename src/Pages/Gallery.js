@@ -102,14 +102,12 @@ const Gallery = () => {
           >
             All
           </Tabs>
-
         <Tabs
             className={gallery === 1 ? "active" : "null"}
             onClick={() => setGallery(1)}
           >
-            Promethean 2022
+            Promethean 2021-22
           </Tabs>
-
           <Tabs
             className={gallery === 2 ? "active" : "null"}
             onClick={() => setGallery(2)}
@@ -120,7 +118,25 @@ const Gallery = () => {
             className={gallery === 3 ? "active" : "null"}
             onClick={() => setGallery(3)}
           >
-            Promethean 2023
+            Promethean 2022-23
+          </Tabs>
+          <Tabs
+            className={gallery === 4 ? "active" : "null"}
+            onClick={() => setGallery(4)}
+          >
+            2023-24
+          </Tabs>
+          <Tabs
+            className={gallery === 5 ? "active" : "null"}
+            onClick={() => setGallery(5)}
+          >
+            Matrix 2023-24
+          </Tabs>
+          <Tabs
+            className={gallery === 6 ? "active" : "null"}
+            onClick={() => setGallery(6)}
+          >
+            Promethean 2023-24
           </Tabs>
         </Tab>
   </HeroDiv>
