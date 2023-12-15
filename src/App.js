@@ -56,7 +56,7 @@ const App = () => {
         <Route path={ROUTES.TEAM} element={<Team />} />
         <Route path={ROUTES.PROMETHEAN} element={<Promethean />} />
         <Route path={ROUTES.GALLERY} element={<Gallery />} />
-  <Route path={ROUTES.BLOGS} element={<Blogs/>} />
+        <Route path={ROUTES.BLOGS} element={<Blogs/>} />
         <Route path={ROUTES.BLOG_ONE} element={<BLOG_ONE/>} />
         <Route path={ROUTES.BLOG_TWO} element={<BLOG_TWO/>} />
         <Route path={ROUTES.BLOG_THREE} element={<BLOG_THREE/>} />
