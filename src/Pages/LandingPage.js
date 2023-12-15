@@ -155,7 +155,7 @@ const LandingPage = () => {
             para="Promethean is inspired by the Greek Titan Prometheus (Ancient Greek Προμηθεύς - Fore thinker ). An innovator, problem solver and a futuristic thinker he was a champion of mankind known for his wily intelligence, who gave fire to mortals and also taught them agriculture so that they could progress and take technology to new levels.
               It focuses on real world problems happening in and around the world. Engineering is all about making life better, solving problems and allowing humankind to achieve new feats."
           />
-          <AboutImage src={PrometheanImage} right />
+          <AboutImage src={PrometheanImage} />
         </FlexDiv>
         <FlexDiv data-aos="fade-up">
           <AboutImage src={Event1} />
@@ -169,6 +169,7 @@ const LandingPage = () => {
           />
         </FlexDiv>
         <FlexDiv data-aos="fade-up">
+        <AboutImage src={PrometheanImage} />
           <Card
             number="03"
             subTitle="Event"
@@ -177,10 +178,8 @@ const LandingPage = () => {
             We cannot survive without the environment, which is the backbone of our survival. To make people aware of this we invite some committed environmental leaders who are also engineers, who work to ensure that mankind preserves the desirable human-nature interaction.
             "
           />
-          <AboutImage src={PrometheanImage} right />
         </FlexDiv>
         <FlexDiv data-aos="fade-up">
-        <AboutImage src={PrometheanImage} />
           <Card
             number="04"
             subTitle="Event"
@@ -188,6 +187,7 @@ const LandingPage = () => {
             para="Matrix is annual Quiz organised for our new GSTians, our FEs, where they can use their previous knowledge they have studied so far in a very interesting way.
             "
           />
+        <AboutImage src={PrometheanImage} />
         </FlexDiv>      
         <div data-aos="fade-up">{/* <ContactUs /> */}</div>
       </Main>
