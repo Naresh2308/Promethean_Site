@@ -137,7 +137,7 @@ const LandingPage = () => {
         }}
       >
         {/* <Timerworking/> */}
-        <Header>Promethean 2023</Header>
+        <Header>Promethean 2024</Header>
         <SubHeader>An engineer's solutions to environmental problems</SubHeader>
         {/* <SubHeader>Register Now !!!</SubHeader>
         <RegBtn>
@@ -164,7 +164,7 @@ const LandingPage = () => {
             subTitle="Event"
             title="Promethean"
             para="
-            PROMETHEAN is an annual poster presentation event organized for our new GSTians, our FEs, to convey how they would consider making our earth a better place as an ENGINEER by proposing solutions.
+            Previously called as PROMETHEAN is an annual poster presentation event organized for our new GSTians, our FEs, to convey how they would consider making our earth a better place as an ENGINEER by proposing solutions.
             "
           />
         </FlexDiv>
@@ -179,6 +179,16 @@ const LandingPage = () => {
           />
           <AboutImage src={PrometheanImage} right />
         </FlexDiv>
+        <FlexDiv data-aos="fade-up">
+        <AboutImage src={PrometheanImage} />
+          <Card
+            number="04"
+            subTitle="Event"
+            title="Matrix"
+            para="Matrix is annual Quiz organised for our new GSTians, our FEs, where they can use their previous knowledge they have studied so far in a very interesting way.
+            "
+          />
+        </FlexDiv>      
         <div data-aos="fade-up">{/* <ContactUs /> */}</div>
       </Main>
     </>
