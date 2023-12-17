@@ -4,7 +4,9 @@ export const Data = [
     id: 1,
     Photo: [
       {
-        image: [
+        section:{
+          sectionTitle:null,
+          image:[
           {
             photo: "Gallery/PROM23/20230120_151644.jpg",
           },
@@ -41,9 +43,6 @@ export const Data = [
           {
             photo: "Gallery/PROM23/IMG_20230120_173707.jpg",
           },
-          
-         ],
-         images: [
           {
             photo: "Gallery/PROM22/IMG_20220925_101238.jpg",
           },
@@ -87,128 +86,126 @@ export const Data = [
           {
             photo: "Gallery/PROM23/bfbdc2eb-6dd3-4d5a-abe0-ba5a47fb7daf.jpg",
           },
-      
-        ],
-      },
-    ],
-  },
-
-  {
+        ]
+        },},
+    ]
+    },
+    {
     id: 2,
     Photo: [
       {
-        image: [
-          {
-            photo: "Gallery/PROM22/20220423_102057.jpg",
+        section:{
+          sectionTitle:null,
+          image: [
+            {
+              photo: "Gallery/PROM22/20220423_102057.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/20220423_121518.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/20220423_125101.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/20220423_140023.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/IMG20220423133926.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/20220423_111235.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/20220423_133655.jpg",
+            },
+            {
+              photo: "Gallery/20220423_102048.jpg",
+           },
+           {
+            photo: "Gallery/PROM22/20220423_124802.jpg",
           },
           {
-            photo: "Gallery/PROM22/20220423_121518.jpg",
-          },
-          {
-            photo: "Gallery/PROM22/20220423_125101.jpg",
-          },
-          {
-            photo: "Gallery/PROM22/20220423_140023.jpg",
-          },
-          {
-            photo: "Gallery/PROM22/IMG20220423133926.jpg",
-          },
-          {
-            photo: "Gallery/PROM22/20220423_111235.jpg",
-          },
-          
-        ],
-        images: [
-          {
-            photo: "Gallery/PROM22/20220423_133655.jpg",
-          },
-          {
-            photo: "Gallery/20220423_102048.jpg",
+            photo: "Gallery/PROM22/IMG_1515.jpg",
          },
          {
-          photo: "Gallery/PROM22/20220423_124802.jpg",
+          photo: "Image/cropped.jpg",
         },
-        {
-          photo: "Gallery/PROM22/IMG_1515.jpg",
-       },
-       {
-        photo: "Image/cropped.jpg",
-      },
-     
-         
-          ],
-      },
-    ],
-  },
-  {
+       
+           
+            ],
+        },},
+    ]
+    },
+    {
     id: 3,
     Photo: [
       {
-        image: [
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0007.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0011.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0013.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0015.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0016.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0018.jpg",
-          },
-          {
-            photo: "Gallery/PROM22/IMG_20220925_101238.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/58dc402e-e3c7-4f86-8882-5b574c357df9.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/3185eda1-2848-479c-91fe-51b48efc525b.jpg",
-          },
-          {
-            photo: "Gallery/IMG_6884.jpg",
-          },
-          {
-            photo: "Gallery/PROM22/20220423_125125.jpg",
-          },
-          {
-            photo: "Gallery/PROM22/20220423_125142.jpg",
-          }, 
-          ],
-        images: [
-          {
-            photo: "Gallery/IMG_6237.jpg",
-          },
-          {
-            photo: "Gallery/croppedd.jpg",
-          },
-          {
-            photo: "Gallery/IMG_6805.jpg",
-          },  
-         
-          {
-            photo: "Gallery/CR1.jpg",
-          },
-          {
-            photo: "Gallery/IMG_6195.jpg",
-          },  
-        ],
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    Photo: [
-      {
-        image: [
+        section:{
+          sectionTitle:null,
+          image: [
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0007.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0011.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0013.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0015.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0016.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0018.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/IMG_20220925_101238.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/58dc402e-e3c7-4f86-8882-5b574c357df9.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/3185eda1-2848-479c-91fe-51b48efc525b.jpg",
+            },
+            {
+              photo: "Gallery/IMG_6884.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/20220423_125125.jpg",
+            },
+            {
+              photo: "Gallery/PROM22/20220423_125142.jpg",
+            }, 
+            {
+              photo: "Gallery/IMG_6237.jpg",
+            },
+            {
+              photo: "Gallery/croppedd.jpg",
+            },
+            {
+              photo: "Gallery/IMG_6805.jpg",
+            },  
+           
+            {
+              photo: "Gallery/CR1.jpg",
+            },
+            {
+              photo: "Gallery/IMG_6195.jpg",
+            },  
+          ]
+        },},
+    ]
+    },
+    {
+      id: 4,
+      Photo: [
+        {
+          section:{
+            sectionTitle:null,
+          image: [
           {
             photo: "Gallery/PROM23/1f0e5ab4-8ddd-40d2-99fd-afc0f7972816.jpg",
           },
@@ -233,8 +230,6 @@ export const Data = [
           {
             photo: "Gallery/PROM23/IMG_20230120_174007.jpg",
           },
-        ],
-        images: [
           {
             photo: "Gallery/PROM23/20230120_151644.jpg",
           },
@@ -260,106 +255,96 @@ export const Data = [
             photo: "Gallery/WhatsApp Image 2023-02-28 at 17.58.01.jpg",
           },
         ],
-        
-      },
-    ],
-  },
 
-  {
+          },},
+      ]
+      },
+    {
     id: 5,
     Photo: [
       {
-        image: [
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0008.jpg",
-          },
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0009.jpg",
-          },
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0010.jpg",
-          },
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0014.jpg",
-          },
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0002.jpg",
-          },
-          
-          
-        ],
-        images: [
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0004.jpg",
-          },
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0003.jpg",
-          },
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0012.jpg",
-          },
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0017.jpg",
-          },
-          {
-            photo: "Gallery/2023_24/IMG-20231210-WA0005.jpg",
-          },
-          
-        ],
-        
-      },
-    ],
-  },
-
-  {
+        section:{
+          sectionTitle:null,
+          image: [
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0008.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0009.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0010.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0014.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0002.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0004.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0003.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0012.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0017.jpg",
+            },
+            {
+              photo: "Gallery/2023_24/IMG-20231210-WA0005.jpg",
+            },
+            
+          ]
+        },},
+    ]
+    },
+    {
     id: 6,
     Photo: [
       {
-        image: [
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0007.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0011.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0013.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0015.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0016.jpg",
-          },
-          {
-            photo: "Gallery/TEAM/IMG-20231210-WA0018.jpg",
-          },
-          
-        ],
-        images: [
-          
-        ],
-        
-      },
-    ],
-  },
+        section:{
+          sectionTitle:null,
+          image: [
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0007.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0011.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0013.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0015.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0016.jpg",
+            },
+            {
+              photo: "Gallery/TEAM/IMG-20231210-WA0018.jpg",
+            },
+            
+          ]
+        },},
+    ]
+    },
   {
     id: 7,
     Photo: [
       {
-        image: [
-          {
-            photo: "Gallery/SUSTAINX23_24/Coming_soon.png",
-          },
+        section:{
+          sectionTitle:null,
+          image: [
+            {
+              photo: "Gallery/SUSTAINX23_24/Coming_soon.png",
+            },
+  
+          ],
+        },},
+    ]
+    }
 
-        ],
-        images: [
-          
-        ],
-        
-      },
-    ],
-  }
-
-];
-
+  ]
