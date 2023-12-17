@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import CloseIcon from '@mui/icons-material/Close';
+//import CloseIcon from '@mui/icons-material/Close';
 import Gpic from "../Images/GBG.jpg";
 import Gallerycard from "../Constants/GalleryCard";
 import { Data } from "../Constants/GalleryData.js"
@@ -20,6 +20,21 @@ const Main = styled.div`
   }
 `;
 
+const Header = styled.h3`
+  font-family: ${(props) => props.theme.Fonts.Josefin};
+  font-weight: 400;
+  font-size: 40px;
+  text-align:center;
+  color: ${(props) => props.theme.Colors.Header};
+  margin-bottom: 20px;
+  margin-top: 20px;
+  @media ${(props) => props.theme.MediaQueries.m.query} {
+    font-size: 45px;
+  }
+  @media ${(props) => props.theme.MediaQueries.l.query} {
+    font-size: 50px;
+  }
+`;
 
 const Tab = styled.div`
   display: flex;
@@ -98,7 +113,6 @@ const Gallery = () => {
       <Tabs
             className={gallery === 0 ? "active" : "null"}
             onClick={() => setGallery(0)}
-
           >
             All
           </Tabs>
@@ -139,32 +153,25 @@ const Gallery = () => {
             SustainX 2023-24
           </Tabs>
         </Tab>
-  </HeroDiv>
-  
-  <Main>
-         <FlexDiv>
-          {Data[gallery].Photo.map((data) => {
-            if (data.image.length !== 0)
-              return data.image.map((result) => {
-                return <Gallerycard photo={result.photo}/>;
-              });
-          })}
-        </FlexDiv>
-        <FlexDiv>
-          {Data[gallery].Photo.map((data) => {
-            if (data.images.length !== 0)
-              return data.images.map((result) => {
-                return <Gallerycard photo={result.photo}/>;
-              });
-          })}
-        </FlexDiv>
-      </Main>
-  
- 
+    </HeroDiv>
+    <Main>
+    {Data[gallery].Photo.map((data) => {
+      if(data.section.image.length!==0)
+        return (
+          <div>
+          <Header>{data.section.sectionTitle}</Header>
+          <FlexDiv>
+          {data.section.image.map((result) => {
+          return (<Gallerycard photo={result.photo}/>);})}
+          </FlexDiv>
+          </div>
+      );
+    }
+    )}
+    
+  </Main>
       </>
   )
-  
 }
-
 
 export default Gallery;
