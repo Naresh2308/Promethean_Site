@@ -5,6 +5,7 @@ import ContactUs from "../Components/Contactus";
 import Hero from "../Components/Hero/Hero";
 import PrometheanImage from "../Images/pp.jpg";
 import Event1 from "../Images/promlanding1.jpg";
+import Event2 from "../Images/Event2.jpg";
 import HeroImg from "../Images/heroimg.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -187,7 +188,7 @@ const LandingPage = () => {
             para="Matrix is annual Quiz organised for our new GSTians, our FEs, where they can use their previous knowledge they have studied so far in a very interesting way.
             "
           />
-        <AboutImage src={PrometheanImage} />
+        <AboutImage src={Event2} />
         </FlexDiv>      
         <div data-aos="fade-up">{/* <ContactUs /> */}</div>
       </Main>
