@@ -3,6 +3,10 @@ import HeroImg from "../Images/heroimg.jpg";
 import React from 'react';
 import * as ROUTES from "../Constants/routes";
 import { Link } from "react-router-dom";
+import Blog1 from "../Images/Blog1.jpeg";
+import Blog2 from "../Images/Blog2.jpeg";
+import Blog3 from "../Images/Blog3.jpeg";
+import Blog4 from "../Images/Blog4.jpeg"
 
 const Main = styled.div`
   max-width: 320px;
@@ -85,56 +89,55 @@ const Blogs = () => {
         <Main>
         <Blogging>
         <Link to={ROUTES.BLOG_ONE}>
-            <a href={ROUTES.BLOG_ONE}><br/>Advancing Towards Net-Zero<br/><br/></a>
+            <a href={ROUTES.BLOG_ONE}><br/><AboutImage src={Blog1}/><br/><br/></a>
           </Link>
-        
           <Link to={ROUTES.BLOG_TWO}>
-            <a href={ROUTES.BLOG_TWO}><br/>Tech Innovations Powering Environmental Sustainability: A Closer Look<br/><br/></a>
+            <a href={ROUTES.BLOG_TWO}><br/><AboutImage src={Blog2}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_THREE}>
-            <a href={ROUTES.BLOG_THREE}><br/>Exploring the Impact of Renewable Energy Technologies<br/><br/></a>
+            <a href={ROUTES.BLOG_THREE}><br/><AboutImage src={Blog3}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_FOUR}>
-            <a href={ROUTES.BLOG_FOUR}><br/>Revolutionizing Plastics: Harnessing the Power of Starch for Sustainable Bags<br/><br/></a>
+            <a href={ROUTES.BLOG_FOUR}><br/><AboutImage src={Blog4}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_FIVE}>
-            <a href={ROUTES.BLOG_FIVE}><br/>Blog5 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_FIVE}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_SIX}>
-            <a href={ROUTES.BLOG_SIX}><br/>Blog6 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_SIX}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_SEVEN}>
-            <a href={ROUTES.BLOG_SEVEN}><br/>Blog7 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_SEVEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_EIGHT}>
-            <a href={ROUTES.BLOG_EIGHT}><br/>Blog8 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_EIGHT}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_NINE}>
-            <a href={ROUTES.BLOG_NINE}><br/>Blog9 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_NINE}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_TEN}>
-            <a href={ROUTES.BLOG_TEN}><br/>Blog10 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_TEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_ELEVEN}>
-            <a href={ROUTES.BLOG_ELEVEN}><br/>Blog11 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_ELEVEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_TWELVE}>
-            <a href={ROUTES.BLOG_TWELVE}><br/>Blog12 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_TWELVE}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_THIRTEEN}>
-            <a href={ROUTES.BLOG_THIRTEEN}><br/>Blog13 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_THIRTEEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_FOURTEEN}>
-            <a href={ROUTES.BLOG_FOURTEEN}><br/>Blog14 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_FOURTEEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_FIFTEEN}>
-            <a href={ROUTES.BLOG_FIFTEEN}><br/>Blog15 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_FIFTEEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_SIXTEEN}>
-            <a href={ROUTES.BLOG_SIXTEEN}><br/>Blog16 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_SIXTEEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_SEVENTEEN}>
-            <a href={ROUTES.BLOG_SEVENTEEN}><br/>Blog17 Name<br/><br/></a>
+            <a href={ROUTES.BLOG_SEVENTEEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
           </Link>
           </Blogging>
         </Main>
