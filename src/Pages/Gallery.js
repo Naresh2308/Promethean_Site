@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 //import CloseIcon from '@mui/icons-material/Close';
 import Gpic from "../Images/GBG.jpg";
-import Gallerycard from "../Constants/GalleryCard";
-import { Data } from "../Constants/GalleryData.js"
+import Section from "../Constants/Section.js";
 
 
 const Main = styled.div`
@@ -20,21 +19,6 @@ const Main = styled.div`
   }
 `;
 
-const Header = styled.h3`
-  font-family: ${(props) => props.theme.Fonts.Josefin};
-  font-weight: 400;
-  font-size: 40px;
-  text-align:center;
-  color: ${(props) => props.theme.Colors.Header};
-  margin-bottom: 20px;
-  margin-top: 20px;
-  @media ${(props) => props.theme.MediaQueries.m.query} {
-    font-size: 45px;
-  }
-  @media ${(props) => props.theme.MediaQueries.l.query} {
-    font-size: 50px;
-  }
-`;
 
 const Tab = styled.div`
   display: flex;
@@ -87,18 +71,6 @@ const HeroDiv = styled.div`
   }
 `;
 
-const FlexDiv = styled.div`
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-  @media ${(props) => props.theme.MediaQueries.m.query} {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-`;
-
-
 const Gallery = () => {
  
   const [gallery, setGallery] = useState(0);
@@ -120,19 +92,19 @@ const Gallery = () => {
             className={gallery === 1 ? "active" : "null"}
             onClick={() => setGallery(1)}
           >
-            Promethean 2021-22
+            2020-21
           </Tabs>
           <Tabs
             className={gallery === 2 ? "active" : "null"}
             onClick={() => setGallery(2)}
           >
-            Team
+            2021-22
           </Tabs>
           <Tabs
             className={gallery === 3 ? "active" : "null"}
             onClick={() => setGallery(3)}
           >
-            Promethean 2022-23
+            2022-23
           </Tabs>
           <Tabs
             className={gallery === 4 ? "active" : "null"}
@@ -140,36 +112,11 @@ const Gallery = () => {
           >
             2023-24
           </Tabs>
-          <Tabs
-            className={gallery === 5 ? "active" : "null"}
-            onClick={() => setGallery(5)}
-          >
-            Matrix 2023-24
-          </Tabs>
-          <Tabs
-            className={gallery === 6 ? "active" : "null"}
-            onClick={() => setGallery(6)}
-          >
-            SustainX 2023-24
-          </Tabs>
         </Tab>
     </HeroDiv>
     <Main>
-    {Data[gallery].Photo.map((data) => {
-      if(data.section.image.length!==0)
-        return (
-          <div>
-          <Header>{data.section.sectionTitle}</Header>
-          <FlexDiv>
-          {data.section.image.map((result) => {
-          return (<Gallerycard photo={result.photo}/>);})}
-          </FlexDiv>
-          </div>
-      );
-    }
-    )}
-    
-  </Main>
+    <Section gallery={gallery}/> 
+    </Main>
       </>
   )
 }
