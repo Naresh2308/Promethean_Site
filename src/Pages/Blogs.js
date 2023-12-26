@@ -7,6 +7,7 @@ import Blog1 from "../Images/Blog1.jpeg";
 import Blog2 from "../Images/Blog2.jpeg";
 import Blog3 from "../Images/Blog3.jpeg";
 import Blog4 from "../Images/Blog4.jpeg"
+import Blog5 from "../Images/Blog5.webp";
 
 const Main = styled.div`
   max-width: 320px;
@@ -101,7 +102,7 @@ const Blogs = () => {
             <a href={ROUTES.BLOG_FOUR}><br/><AboutImage src={Blog4}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_FIVE}>
-            <a href={ROUTES.BLOG_FIVE}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
+            <a href={ROUTES.BLOG_FIVE}><br/><AboutImage src={Blog5}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_SIX}>
             <a href={ROUTES.BLOG_SIX}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
