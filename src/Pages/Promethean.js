@@ -271,6 +271,7 @@ const Promethean = () => {
                     <CountDetail>Teams</CountDetail>
                   </CountDiv>
                 </CountMainDiv>
+                {/*
                 <div>
                   <MoreInfopara>For more info</MoreInfopara>
                   <Button>
@@ -282,6 +283,7 @@ const Promethean = () => {
                     </a>
                   </Button>
                 </div>
+                */}
               </FlexDiv>
             </div>
           </MainFlexDiv>
