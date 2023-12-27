@@ -20,13 +20,6 @@ import Footer from "./Components/Footer";
 
 import * as ROUTES from "./Constants/routes";
 
-const Header = styled.h1`
-  max-width: 1200px;
-  margin: 4em auto;
-  color: ${(props) => props.theme.Colors.Header};
-  font-family: ${(props) => props.theme.Fonts.Arial};
-`;
-
 //Blogs
 import BLOG_ONE from "./Pages/Blogssample/blog1";
 import BLOG_TWO from "./Pages/Blogssample/blog2";
@@ -45,6 +38,13 @@ import BLOG_FOURTEEN from "./Pages/Blogssample/blog14";
 import BLOG_FIFTEEN from "./Pages/Blogssample/blog15";
 import BLOG_SIXTEEN from "./Pages/Blogssample/blog16";
 import BLOG_SEVENTEEN from "./Pages/Blogssample/blog17";
+
+const Header = styled.h1`
+  max-width: 1200px;
+  margin: 4em auto;
+  color: ${(props) => props.theme.Colors.Header};
+  font-family: ${(props) => props.theme.Fonts.Arial};
+`;
 
 const App = () => {
   return (
