@@ -92,6 +92,7 @@ const BLOG_FIVE = () => {
               Conclusion:<br/>
               Car-centric infrastructure has played a significant role in shaping our cities, but its environmental consequences cannot be ignored. To build a greener and more sustainable future, urban planners, policymakers, and communities must collaborate to prioritize public health, reduce emissions, and create cities that are not only efficient but also environmentally responsible. It's time to reimagine our urban spaces with a focus on sustainability and embrace alternatives that prioritize both the well-being of the planet and its inhabitants.
               <br/><br/>
+              </p>
              </Blogging>
             </Main>
         </>
