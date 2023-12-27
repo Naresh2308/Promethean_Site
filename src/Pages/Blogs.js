@@ -6,8 +6,10 @@ import { Link } from "react-router-dom";
 import Blog1 from "../Images/Blog1.jpeg";
 import Blog2 from "../Images/Blog2.jpeg";
 import Blog3 from "../Images/Blog3.jpeg";
-import Blog4 from "../Images/Blog4.jpeg"
+import Blog4 from "../Images/Blog4.jpeg";
 import Blog5 from "../Images/Blog5.webp";
+import Blog6 from "../Images/Blog6.jpeg";
+import Blog7 from "../Images/Blog7.jpeg";
 
 const Main = styled.div`
   max-width: 320px;
@@ -105,10 +107,10 @@ const Blogs = () => {
             <a href={ROUTES.BLOG_FIVE}><br/><AboutImage src={Blog5}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_SIX}>
-            <a href={ROUTES.BLOG_SIX}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
+            <a href={ROUTES.BLOG_SIX}><br/><AboutImage src={Blog6}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_SEVEN}>
-            <a href={ROUTES.BLOG_SEVEN}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
+            <a href={ROUTES.BLOG_SEVEN}><br/><AboutImage src={Blog7}/><br/><br/></a>
           </Link>
           <Link to={ROUTES.BLOG_EIGHT}>
             <a href={ROUTES.BLOG_EIGHT}><br/><AboutImage src={PrometheanImage}/><br/><br/></a>
