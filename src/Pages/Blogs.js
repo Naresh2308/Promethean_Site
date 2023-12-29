@@ -10,6 +10,7 @@ import Blog4 from "../Images/Blog4.jpeg";
 import Blog5 from "../Images/Blog5.webp";
 import Blog6 from "../Images/Blog6.jpeg";
 import Blog7 from "../Images/Blog7.jpeg";
+import Blog8 from "../Images/Blog8.jpeg";
 
 const Main = styled.div`
   max-width: 320px;
@@ -161,12 +162,12 @@ const Blogs = () => {
             <a href={ROUTES.BLOG_SEVEN}><br/><AboutImage src={Blog7}/><br/><Title>Embracing Green Havens</Title><Para>In the hustle and bustle of modern city life, amidst towering skyscrapers and bustling streets, there exists an often overlooked oasis that plays a crucial role in our well-being — urban green spaces. Parks, gardens, and green areas are...</Para> <Read>Read more</Read></a>
           </Link>
           </Section>
-          {/* <Section>
+          <Section>
           <Link to={ROUTES.BLOG_EIGHT}>
-            <a href={ROUTES.BLOG_EIGHT}><br/><AboutImage/><br/><Para></Para><Read>Read more</Read></a>
+            <a href={ROUTES.BLOG_EIGHT}><br/><AboutImage src={Blog8}/><br<Title>Reviving Urban Biodiversity</Title><Para>In the bustling heart of urban landscapes, amidst the towering structures and bustling streets, lies a silent casualty: the decline of urban biodiversity. As cities expand and concrete conquers once-thriving...</Para><Read>Read more</Read></a>
           </Link>
           </Section>
-          <Section>
+          {/* <Section>
           <Link to={ROUTES.BLOG_NINE}>
             <a href={ROUTES.BLOG_NINE}><br/><AboutImage/><br/><Para></Para><Read>Read more</Read></a>
           </Link>
