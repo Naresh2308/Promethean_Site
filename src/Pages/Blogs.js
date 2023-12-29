@@ -164,7 +164,7 @@ const Blogs = () => {
           </Section>
           <Section>
           <Link to={ROUTES.BLOG_EIGHT}>
-            <a href={ROUTES.BLOG_EIGHT}><br/><AboutImage src={Blog8}/><br<Title>Reviving Urban Biodiversity</Title><Para>In the bustling heart of urban landscapes, amidst the towering structures and bustling streets, lies a silent casualty: the decline of urban biodiversity. As cities expand and concrete conquers once-thriving...</Para><Read>Read more</Read></a>
+            <a href={ROUTES.BLOG_EIGHT}><br/><AboutImage src={Blog8}/><br/><Title>Reviving Urban Biodiversity</Title><Para>In the bustling heart of urban landscapes, amidst the towering structures and bustling streets, lies a silent casualty: the decline of urban biodiversity. As cities expand and concrete conquers once-thriving...</Para><Read>Read more</Read></a>
           </Link>
           </Section>
           {/* <Section>
