@@ -130,7 +130,7 @@ const Navbar = () => {
             <SideNavContent href={ROUTES.GALLERY}>GALLERY</SideNavContent>
           </Link>
           <Link to={ROUTES.BLOGS}>
-            <NavContent href={ROUTES.BLOGS}>BLOGS</NavContent>
+            <SideNavContent href={ROUTES.BLOGS}>BLOGS</SideNavContent>
           </Link>
         </SideNavList>
         <NavList>
