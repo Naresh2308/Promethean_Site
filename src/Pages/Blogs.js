@@ -173,12 +173,12 @@ const Blogs = () => {
             <a href={ROUTES.BLOG_NINE}><br/><AboutImage src={Blog9}/><br/><Title>The Rise of Vertical Forests: A Green</Title><Para>As we witness the rapid urbanization and the ever-increasing population in cities, the need for sustainable and eco-friendly solutions becomes more pressing than ever. One innovative concept that has...</Para><Read>Read more</Read></a>
           </Link>
           </Section>
-          {/*<Section>
+          <Section>
           <Link to={ROUTES.BLOG_TEN}>
-            <a href={ROUTES.BLOG_TEN}><br/><AboutImage/><br/><Para></Para><Read>Read more</Read></a>
+            <a href={ROUTES.BLOG_TEN}><br/><AboutImage src={Blog10}/><br/><Para></Para><Read>Read more</Read></a>
           </Link>
           </Section>
-          <Section>
+          {/*<Section>
           <Link to={ROUTES.BLOG_ELEVEN}>
             <a href={ROUTES.BLOG_ELEVEN}><br/><AboutImage/><br/><Para></Para><Read>Read more</Read></a>
           </Link>
