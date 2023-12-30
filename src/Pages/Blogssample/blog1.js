@@ -1,4 +1,3 @@
-import react from 'react';
 import styled from "styled-components";
 import React from 'react';
 import HeroImg from "./heroimgblog/netzero.jpg";
@@ -51,7 +50,7 @@ const HeroDiv = styled.div`
 const Blogging = styled.div`
 font-size: 18px;
 padding:15px;
-text-align:center;
+text-align:justify;
 border-radius:25px;
 font-family: ${(props) => props.theme.Fonts.Josefin};
 background-color: rgba(255, 255, 255, 0.7);

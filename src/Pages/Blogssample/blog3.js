@@ -1,4 +1,3 @@
-import react from 'react';
 import styled from "styled-components";
 import React from 'react';
 import HeroImg from "../Blogssample/heroimgblog/renew.jpg";
@@ -49,7 +48,7 @@ max-width: 100%;
 font-size: 25px;
 padding:60px;
 margin:45px;
-text-align:center;
+text-align:justify;
 border-radius:30px;
 font-family: ${(props) => props.theme.Fonts.Josefin};
 background-color: rgba(255, 255, 255, 0.7);

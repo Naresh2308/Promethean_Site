@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import React from 'react';
-import HeroImg from "../Blogssample/heroimg.jpg";
-
+import HeroImg from "../Blogssample/heroimgblog/garden.jpeg";
 const Main = styled.div`
   max-width: 320px;
   padding:10px;
@@ -50,7 +49,7 @@ const HeroDiv = styled.div`
 const Blogging = styled.div`
 font-size: 18px;
 padding:15px;
-text-align:center;
+text-align:justify;
 border-radius:25px;
 font-family: ${(props) => props.theme.Fonts.Josefin};
 background-color: rgba(255, 255, 255, 0.7);
@@ -71,7 +70,7 @@ const BLOG_TEN = () => {
       <>
       <HeroDiv
           style={{
-           backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(${HeroImg})`,
+            backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(${HeroImg})`,
            }}
         >
           <Header>Reviving Urban Biodiversity: Cultivating Green Oases in Concrete Jungles</Header>
