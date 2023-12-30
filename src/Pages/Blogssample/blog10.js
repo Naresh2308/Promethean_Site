@@ -66,7 +66,7 @@ background-color: rgba(255, 255, 255, 0.7);
   }
 `;
 
-const BLOG_EIGHT = () => {
+const BLOG_TEN = () => {
   return (
       <>
       <HeroDiv
@@ -100,4 +100,4 @@ const BLOG_EIGHT = () => {
   );
 };
 
-export default BLOG_EIGHT;
+export default BLOG_TEN;
