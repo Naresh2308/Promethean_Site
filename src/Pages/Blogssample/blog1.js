@@ -1,7 +1,7 @@
 import react from 'react';
 import styled from "styled-components";
 import React from 'react';
-import HeroImg from "../Blogssample/heroimg.jpg";
+import HeroImg from "./heroimgblog/netzero.jpg";
 
 const Main = styled.div`
   max-width: 320px;
