@@ -83,26 +83,26 @@ const BLOG_TWELVE = () => {
                   Introduction:<br/>
                   Welcome, ocean enthusiasts! Today, we're delving into the depths of marine life conservation, exploring why it's crucial and how we can contribute to preserving our oceans. Join me on this journey as we uncover the wonders beneath the waves and learn how we can make a positive impact.<br/>
 
-                  Section 1: The Importance of Marine Life<br/>
+                  <br/>Section 1: The Importance of Marine Life<br/>
                   Our oceans are teeming with life, from colorful coral reefs to majestic marine creatures. They play a vital role in maintaining the balance of our planet's ecosystems. Marine life provides food, supports biodiversity, and contributes to the regulation of climate. By protecting marine ecosystems, we ensure the well-being of both aquatic and terrestrial life.<br/>
 
-                  Section 2: Threats to Marine Life<br/>
+                  <br/>Section 2: Threats to Marine Life<br/>
                   Unfortunately, our oceans face numerous threats, including overfishing, habitat destruction, and pollution. Human activities like plastic waste and oil spills harm marine ecosystems, endangering the very creatures that call the ocean home. Understanding these threats is the first step towards effective conservation.<br/>
 
-                  Section 3: How We Can Help<br/><br/>
+                  <br/>Section 3: How We Can Help<br/><br/>
                   Now, let's shift our focus to actionable steps we can take to contribute to marine life conservation:<br/>
 
-                  1. Reduce Single-Use Plastics: Opt for reusable items and say no to single-use plastics to prevent them from ending up in the ocean.<br/>
+                  <br/> 1. Reduce Single-Use Plastics: Opt for reusable items and say no to single-use plastics to prevent them from ending up in the ocean.<br/>
 
-                  2. Responsible Seafood Choices: Choose sustainably sourced seafood to support fisheries that prioritize environmental conservation.<br/>
+                  <br/>2. Responsible Seafood Choices: Choose sustainably sourced seafood to support fisheries that prioritize environmental conservation.<br/>
 
-                  3. Beach Cleanup Initiatives: Participate in or organize beach cleanups to remove debris and protect coastal ecosystems.<br/>
+                  <br/>3. Beach Cleanup Initiatives: Participate in or organize beach cleanups to remove debris and protect coastal ecosystems.<br/>
 
-                  4. Educate Others: Spread awareness about marine conservation and its importance to inspire others to join the cause.<br/>
+                  <br/>4. Educate Others: Spread awareness about marine conservation and its importance to inspire others to join the cause.<br/>
 
-                  5. Support Conservation Organizations: Contribute to or volunteer with organizations dedicated to preserving marine life, such as marine sanctuaries and wildlife protection groups.<br/>
+                  <br/>5. Support Conservation Organizations: Contribute to or volunteer with organizations dedicated to preserving marine life, such as marine sanctuaries and wildlife protection groups.<br/>
 
-                  Conclusion:<br/>
+                  <br/>Conclusion:<br/>
                   In conclusion, our oceans are in need of our protection. By making simple, everyday choices and supporting conservation efforts, we can collectively make a significant impact on marine life preservation. Let's work together to ensure that the beauty and diversity of our oceans continue to thrive for generations to come. Dive in, take action, and be a champion for our seas!<br/>
               </p>
              </Blogging>
