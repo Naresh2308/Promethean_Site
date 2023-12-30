@@ -12,6 +12,8 @@ import Blog6 from "../Images/Blog6.jpeg";
 import Blog7 from "../Images/Blog7.jpeg";
 import Blog8 from "../Images/Blog8.webp";
 import Blog9 from "../Images/Blog9.webp";
+import Blog10 from "../Images/Blog10.webp";
+import Blog11 from "../Images/Blog10.webp";
 
 const Main = styled.div`
   max-width: 320px;
@@ -178,12 +180,12 @@ const Blogs = () => {
             <a href={ROUTES.BLOG_TEN}><br/><AboutImage src={Blog10}/><br/><Para></Para><Read>Read more</Read></a>
           </Link>
           </Section>
-          {/*<Section>
+          <Section>
           <Link to={ROUTES.BLOG_ELEVEN}>
-            <a href={ROUTES.BLOG_ELEVEN}><br/><AboutImage/><br/><Para></Para><Read>Read more</Read></a>
+            <a href={ROUTES.BLOG_ELEVEN}><br/><AboutImage src={Blog11}/><br/><Title>Powering a Green Future</Title><Para>In our quest for a sustainable future, one of the most pressing challenges is addressing the environmental impact...</Para><Read>Read more</Read></a>
           </Link>
           </Section>
-          <Section>
+        {*/<Section>
           <Link to={ROUTES.BLOG_TWELVE}>
             <a href={ROUTES.BLOG_TWELVE}><br/><AboutImage/><br/><Para></Para><Read>Read more</Read></a>
           </Link>
