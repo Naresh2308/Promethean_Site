@@ -1,19 +1,16 @@
 import react from 'react';
 import styled from "styled-components";
 import React from 'react';
-import HeroImg from "../Blogssample/heroimg.jpg";
+import HeroImg from "../Blogssample/heroimgblog/cartoll.jpg";
 
 const Main = styled.div`
   max-width: 320px;
-  padding:10px;
-  margin:auto;
+  margin: 0 auto;
   @media ${(props) => props.theme.MediaQueries.m.query} {
     max-width: 720px;
-    margin: auto;
   }
   @media ${(props) => props.theme.MediaQueries.l.query} {
     max-width: 1200px;
-    margin: auto;
   }
 `;
 
@@ -22,12 +19,11 @@ const Header = styled.h1`
   font-weight: 600;
   color: ${(props) => props.theme.Colors.Header};
   margin-bottom: 20px;
-  font-size:24px;
   @media ${(props) => props.theme.MediaQueries.m.query} {
-    font-size: 50px;
+    font-size: 70px;
   }
   @media ${(props) => props.theme.MediaQueries.l.query} {
-    font-size: 70px;
+    font-size: 50px;
   }
 `;
 
@@ -49,22 +45,14 @@ const HeroDiv = styled.div`
 `;
 
 const Blogging = styled.div`
-font-size: 18px;
-padding:15px;
+max-width: 100%;
+font-size: 25px;
+padding:60px;
+margin:45px;
 text-align:center;
-border-radius:25px;
+border-radius:30px;
 font-family: ${(props) => props.theme.Fonts.Josefin};
 background-color: rgba(255, 255, 255, 0.7);
-@media ${(props) => props.theme.MediaQueries.m.query} {
-    margin:45px;
-    font-size: 25px;
-    padding:40px;
-  }
-  @media ${(props) => props.theme.MediaQueries.l.query} {
-  margin:70px;
-  font-size: 25px;
-  padding:60px;
-  }
 `;
 
 const BLOG_FIVE = () => {
